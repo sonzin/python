@@ -10,3 +10,6 @@ print('Ban bao nhieu tuoi roi') #hoi tuoi ban be
 myage = input()
 print('vay la ban da ', myage, 'tuoi roi')
 print('ban se ' + str(int(myage)+1) + ' tuoi trong vong 1 nam nua')
+print('Mày đang học lớp nào hả em?')
+myclass=input()
+print('Tao đang học lớp ' , myclass, ' con ạ') 
