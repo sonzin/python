@@ -4,3 +4,4 @@ def danhsachmuahang():
     print('Sữa chua')
     print('Sữa tươi')
     print()
+danhsachmuahang()
