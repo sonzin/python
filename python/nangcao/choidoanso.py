@@ -9,7 +9,12 @@ target = random.randrange(1,MAX_GUESS + 1)
 khachdudoan = 0
 solandoan = 0
 while True:
-    khachdoan = int(input('Nhập vào số dự đoán đi anh: '))
+    khachdoan = input('Nhập vào số dự đoán đi anh: ')
+    try:
+        khachdoan = int(khachdoan)
+    except:
+        print('Nhập số đi ông')
+        continue    
     if target == int(khachdoan):
         print('Anh đoán chuẩn đấy ạ')
         break
